@@ -1,0 +1,82 @@
+.auth-modal {
+    width: 350px;
+    margin: 50px auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.auth-modal h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.auth-modal input {
+    width: 100%;
+    padding: 0.7em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.auth-modal button {
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.auth-modal button:hover {
+    background-color: #0056b3;
+}
+
+.auth-modal p {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.auth-modal p button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0;
+    margin-left: 0.3em;
+}
+
+.auth-modal p button:hover {
+    text-decoration: underline;
+}
+
+.auth-modal p.error {
+    color: red;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+
+/* admin */
+.admin-login-btn {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-login-btn:hover {
+  background-color: #666;
+}
